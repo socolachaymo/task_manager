@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+div.container {
+    padding: 10% 0;
+}
+input[type=submit] {
+    background-color: #008f95;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 16px;
+}
+ul.header {
+    background-color: #dddddd;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 50px;
+    overflow: hidden;
+}
+li.left-header {
+    display: block;
+    font-size: larger;
+    padding: 12px 16px;
+    float: left;
+    font-family: cursive;
+    text-decoration: overline;
+}
+li {
+    float: right;
+  }
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: gray;
+}
+table, th, td {
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
